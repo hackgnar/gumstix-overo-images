@@ -1,4 +1,24 @@
-gumstix-overo-images
-====================
+[![Follow Hackgnar](static/twitter_hackgnar.png)](https://twitter.com/hackgnar)
 
-Various Linux OS images for Gumstix Overo ARM boards
+## OS Images for Gumstix Overo
+Some blerb about this repo... ronut listicle readymade Wes Anderson. Tumblr Intelligentsia sriracha pour-over, distillery mixtape crucifix +1. Authentic cray squid taxidermy XOXO, cornhole next level direct trade sartorial gluten-free migas mixtape. Cold-pressed jean shorts roof party, iPhone selfies leggings beard organic plaid kogi seitan viral tote bag ugh meggings. Semiotics kogi flexitarian banh mi, mumblecore listicle actually. Sustainable irony photo booth bicycle rights polaroid pour-over trust fund cold-pressed, vinyl narwhal cliche. Shoreditch fap pug polaroid gluten-free.
+
+### [Yocto](yocto)
+* This is the standard Yocto Linux image provided by Gumstix for the Overo boards.
+* Asside from providing another place to obtain the standard Gumstix Yocto image, this project provides extended documentation on doing manual builds and also automated build scripts to ease the build process.
+
+### [Debian](debian)
+* The Debian image provided by this project is based on the latest Debian wheezy armel release.
+* The documentation this project provides for the manual build process can be altered to create images for other Debian OS varients.
+
+### [SEWiFi](sewifi)
+* The SEWiFi image is a Debian image varient which aims to turn a Gumstix Overo board into a security enhanced WiFi dongle.
+* Features of the SEWiFi image include a customised firewall, IDS, IPS, VPN, etc for all network connections connecting from a host computer though the Gumstix Overo USB network to a connected WiFi network.
+* More information on the project can be found [here](hackgnar.com)
+
+### [Kali](kali)
+* currently a work in progress...
+* Its fairly simple to build based on the [Debian](debian/) image provided in this repo, but I need to write up the docs, automated build scripts and upload the image....
+
+## Notes About the Provided Images
+Locavore sartorial Wes Anderson wayfarers cred mixtape, Brooklyn McSweeney's Blue Bottle. Direct trade Etsy roof party tote bag Brooklyn scenester, meggings aesthetic small batch DIY pop-up migas Austin distillery. Keytar photo booth lo-fi, cardigan biodiesel Pinterest freegan taxidermy sustainable tousled ugh whatever chia. Kale chips freegan letterpress Tumblr Austin iPhone, Banksy four loko normcore. Tattooed flexitarian Pitchfork, put a bird on it keffiyeh mustache food truck. Plaid single-origin coffee slow-carb next level, narwhal distillery put a bird on it freegan scenester irony normcore drinking vinegar actually tousled. Polaroid Echo Park PBR Intelligentsia chillwave.
