@@ -7,7 +7,7 @@
 
 ### Download the Build Script
 ````
-curl -O url/debian_scripted_build.sh
+curl -O https://raw.githubusercontent.com/hackgnar/gumstix-overo-images/master/debian/debian_scripted_build.sh
 ````
 
 ### Run the Build Script

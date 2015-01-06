@@ -7,13 +7,13 @@
 
 ### Download the Build Script
 ````
-curl -O url/debian_scripted_build.sh
+curl -O https://raw.githubusercontent.com/hackgnar/gumstix-overo-images/master/sewifi/sewifi_scripted_build.sh
 ````
 
 ### Run the Build Script
 * The script should not be run as root.  Note however that you will be asked for the root password multiple times during the build process since the script utilizes the su command.
 ````
-bash debian_scripted_build.sh
+bash sewifi_scripted_build.sh
 ````
 
 ### Install to SD Card

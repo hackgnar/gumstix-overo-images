@@ -11,7 +11,7 @@
 ### Format your SD card
 * in the command below, replace sdX with the device your SD card was mapped to which you noted in the previous step
 ````
-curl -O url/mk2partsd
+curl -O https://raw.githubusercontent.com/hackgnar/gumstix-overo-images/master/mk2partsd
 ./mk2partsd /dev/sdX
 ````
 
@@ -20,7 +20,7 @@ curl -O url/mk2partsd
 cp MLO /media/boot
 cp uImage /media/boot
 cp u-boot.img /media/boot
-tar xaf image.tar.bz2 -C /media/rootfs
+tar xaf wheezy.tar.bz2 -C /media/rootfs
 sync
 umount /media/boot
 umount /media/rootfs

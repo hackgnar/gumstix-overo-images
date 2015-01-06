@@ -9,10 +9,15 @@ Flexitarian fanny pack sartorial jean shorts, hoodie Etsy ethical. Keytar irony 
 ````
 mkdir myimage
 cd myimage
-curl -O url/MLO
-curl -O url/uImage
-curl -O url/u-boot.img
-curl -O url/gumstix-console-image-overo-20141218160757.rootfs.tar.bz2
+curl -O https://raw.githubusercontent.com/hackgnar/gumstix-overo-images/master/kali/uboot_image/MLO
+curl -O https://raw.githubusercontent.com/hackgnar/gumstix-overo-images/master/kali/uboot_image/uImage
+curl -O https://raw.githubusercontent.com/hackgnar/gumstix-overo-images/master/kali/uboot_image/u-boot.img
+curl -O https://raw.githubusercontent.com/hackgnar/gumstix-overo-images/master/kali/uboot_image/kali.tar.bz2.split-aa
+curl -O https://raw.githubusercontent.com/hackgnar/gumstix-overo-images/master/kali/uboot_image/kali.tar.bz2.split-ab
+curl -O https://raw.githubusercontent.com/hackgnar/gumstix-overo-images/master/kali/uboot_image/kali.tar.bz2.split-ac
+curl -O https://raw.githubusercontent.com/hackgnar/gumstix-overo-images/master/kali/uboot_image/kali.tar.bz2.split-ad
+curl -O https://raw.githubusercontent.com/hackgnar/gumstix-overo-images/master/kali/uboot_image/kali.tar.bz2.split-ae
+cat kali.tar.bz2.split* > kali.tar.bz2
 ````
 
 ### Install to SD Card

@@ -2,7 +2,7 @@
 
 [< Back](README.md)
 
-## Manually Building a Gumstix Overo Debian Image
+## Manually Building a Gumstix Overo Kali Image
 * Of all the methods I provide for building/obtaining Gumstix Overo OS images, the manual build process is by far the most time consuming.  If however you are intrested in maually building your own image, this method defiantely allows for the most custimizations to your image.
 
 ### Step 1
