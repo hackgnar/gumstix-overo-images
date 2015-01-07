@@ -1,7 +1,7 @@
 [![Follow Hackgnar](static/twitter_hackgnar.png)](https://twitter.com/hackgnar)
 
 ## OS Images for Gumstix Overo
-This repository houses OS images, documentation and scripts to assist in obtaining/building various Linux distributions for the Gumstix Overo ARM board.
+This repository houses OS images, documentation and scripts to assist in obtaining/building various Linux distributions for the Gumstix Overo ARM board.  All of the Linux images here are configured to support USB networking on the Gumstix device for easy access via USB.
 
 This repository currently provides images, scripts and documentation building the following Linux distributions:
 
@@ -32,4 +32,13 @@ This repository currently provides images, scripts and documentation building th
 * Work in progress... Stay tuned...
 
 ## Notes About the Provided Images
-Locavore sartorial Wes Anderson wayfarers cred mixtape, Brooklyn McSweeney's Blue Bottle. Direct trade Etsy roof party tote bag Brooklyn scenester, meggings aesthetic small batch DIY pop-up migas Austin distillery. Keytar photo booth lo-fi, cardigan biodiesel Pinterest freegan taxidermy sustainable tousled ugh whatever chia. Kale chips freegan letterpress Tumblr Austin iPhone, Banksy four loko normcore. Tattooed flexitarian Pitchfork, put a bird on it keffiyeh mustache food truck. Plaid single-origin coffee slow-carb next level, narwhal distillery put a bird on it freegan scenester irony normcore drinking vinegar actually tousled. Polaroid Echo Park PBR Intelligentsia chillwave.
+As mentioned above, all of the images provided in this repository are configured to support USB networking on the Gumstix and host computer.  This makes accessing a Gumstix device via SSH over a usb network interface as easy as possible.  All of the images were built for and tested on a Gumstix Overo IronSTORM-P COM with a Thumbo USB daughterbaord.  The images should work on other Gumstix main & daughterbaords, but I have not tested them.
+
+Here is information on the [Thumbo Board](https://store.gumstix.com/index.php/products/240/) 
+
+![](https://d3iwea566ns1n1.cloudfront.net/images/product/PKG30021.overview.jpg)
+
+Here is information on the [Gumstix IronSTORM-P COM](https://store.gumstix.com/index.php/products/622/) 
+
+![](https://s3-us-west-2.amazonaws.com/media.gumstix.com/images/product/768dd9340e71427b43542e11d97a3271574d5764.jpeg)
+
