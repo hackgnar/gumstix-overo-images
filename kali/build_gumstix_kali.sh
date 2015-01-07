@@ -17,7 +17,7 @@ mv kali_debootstrap /usr/share/debootstrap/scripts/kali
 debootstrap --foreign --arch armel --include=vim-nox,openssh-server,ntpdate,less,wireless-tools,wpasupplicant,dnsmasq,psmisc,locales,locales-all,screen --exclude=nano kali ./kali http://archive.kali.org/kali
 cp /usr/bin/qemu-arm-static kali/usr/bin
 
-##Stage ???
+##Stage ??? 1.5 ???
 mkdir -p $YOCTO_DIR/filesystem
 cd $YOCTO_DIR/filesystem
 tar xfj $YOCTO_DIR/build/tmp/deploy/images/overo/gumstix-console-image-overo.tar.bz2 .
@@ -69,12 +69,6 @@ cat << EOF > kali/debconf.set
 console-common console-data/keymap/policy select Select keymap from full list
 console-common console-data/keymap/full select en-latin1-nodeadkeys
 EOF
-#TODO: ENABLE SSH for USB network... somewhere in the chroot run...
-#update-rc.d -f ssh remove
-#update-rc.d -f ssh defaults
-#rm /etc/ssh/ssh_host_*
-#dpkg-reconfigure openssh-server
-#TODO: fix DHCP in dnsmasq... doesnt seem to run
 cat << EOF > kali/third-stage
 #!/bin/bash
 dpkg-divert --add --local --divert /usr/sbin/invoke-rc.d.chroot --rename /usr/sbin/invoke-rc.d
@@ -82,6 +76,10 @@ cp /bin/true /usr/sbin/invoke-rc.d
 apt-get update
 apt-get install locales-all
 #locale-gen en_US.UTF-8
+update-rc.d -f ssh remove
+update-rc.d -f ssh defaults
+update-rc.d -f dnsmasq remove
+update-rc.d -f dnsmasq defaults
 debconf-set-selections /debconf.set
 rm -f /debconf.set
 apt-get update
@@ -98,7 +96,7 @@ EOF
 chmod +x kali/third-stage
 LANG=C chroot kali /third-stage
 echo dhcp-range=usb0,172.16.1.10,172.16.1.50,12h > $KALI_DIR/kali/etc/dnsmasq.conf
-#/bin/su -c "echo LANG=en_US.UTF-8 >> $DEBIAN_DIR/wheezy/etc/default/locale"
+echo LANG=en_US.UTF-8 >> $KALI_DIR/kali/etc/default/locale
 
 #CLEANUP
 cat << EOF > kali/cleanup
