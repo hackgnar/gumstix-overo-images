@@ -6,8 +6,7 @@ mkdir -p $KALI_DIR
 cd $KALI_DIR
 
 apt-get install -y debootstrap binfmt-support qemu qemu-user-static
-#TODO: FIX THIS SHIT
-curl -O url/kali_debootstrap
+curl -O https://raw.githubusercontent.com/hackgnar/gumstix-overo-images/master/kali/kali_debootstrap
 mv kali_debootstrap /usr/share/debootstrap/scripts/kali
 #ALSO NOTE: after bootstrap starts, i get this warning
 #W: Cannot check Release signature; keyring file not available /usr/share/keyrings/kali-archive-keyring.gpg
@@ -58,7 +57,7 @@ network={
 EOF
 
 #Third Stage
-cd $KALI_DIR/kali
+cd $KALI_DIR
 export MALLOC_CHECK_=0 # workaround for LP: #520465
 export LC_ALL=C
 export DEBIAN_FRONTEND=noninteractive
