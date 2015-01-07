@@ -1,7 +1,9 @@
 [![Follow Hackgnar](static/twitter_hackgnar.png)](https://twitter.com/hackgnar)
 
 ## OS Images for Gumstix Overo
-Some blerb about this repo... ronut listicle readymade Wes Anderson. Tumblr Intelligentsia sriracha pour-over, distillery mixtape crucifix +1. Authentic cray squid taxidermy XOXO, cornhole next level direct trade sartorial gluten-free migas mixtape. Cold-pressed jean shorts roof party, iPhone selfies leggings beard organic plaid kogi seitan viral tote bag ugh meggings. Semiotics kogi flexitarian banh mi, mumblecore listicle actually. Sustainable irony photo booth bicycle rights polaroid pour-over trust fund cold-pressed, vinyl narwhal cliche. Shoreditch fap pug polaroid gluten-free.
+This repository houses OS images, documentation and scripts to assist in obtaining/building various Linux distributions for the Gumstix Overo ARM board.
+
+This repository currently provides images, scripts and documentation building the following Linux distributions:
 
 ### [Yocto](yocto)
 * This is the standard Yocto Linux image provided by Gumstix for the Overo boards.
