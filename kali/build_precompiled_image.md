@@ -14,9 +14,6 @@ curl -O https://raw.githubusercontent.com/hackgnar/gumstix-overo-images/master/k
 curl -O https://raw.githubusercontent.com/hackgnar/gumstix-overo-images/master/kali/uboot_image/u-boot.img
 curl -O https://raw.githubusercontent.com/hackgnar/gumstix-overo-images/master/kali/uboot_image/kali.tar.bz2.split-aa
 curl -O https://raw.githubusercontent.com/hackgnar/gumstix-overo-images/master/kali/uboot_image/kali.tar.bz2.split-ab
-curl -O https://raw.githubusercontent.com/hackgnar/gumstix-overo-images/master/kali/uboot_image/kali.tar.bz2.split-ac
-curl -O https://raw.githubusercontent.com/hackgnar/gumstix-overo-images/master/kali/uboot_image/kali.tar.bz2.split-ad
-curl -O https://raw.githubusercontent.com/hackgnar/gumstix-overo-images/master/kali/uboot_image/kali.tar.bz2.split-ae
 cat kali.tar.bz2.split* > kali.tar.bz2
 ````
 
