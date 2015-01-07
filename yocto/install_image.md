@@ -16,6 +16,7 @@ curl -O https://raw.githubusercontent.com/hackgnar/gumstix-overo-images/master/m
 ````
 
 ### Copy uboot files to the SD card
+* On a debian system your SD card partitions should automaticly get mounted to /media/boot and /media/root.  If this is not the case then make sure your SD cards are mounted and substitute the mount directory refrenced in the instuctions below.
 ````
 cp MLO /media/boot
 cp uImage /media/boot
