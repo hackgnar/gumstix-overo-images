@@ -24,5 +24,12 @@ This repository currently provides images, scripts and documentation building th
 * The scripted build is verfied to be working.
 * The provided precompiled image is also verified to be working.
 
+### Ubuntu (14.X)
+* Work in progress... Stay tuned...
+* This is a simple port and follows most of the manual build documentation which can be found in the [Debian](debian) section of this repository.
+
+### Fedora
+* Work in progress... Stay tuned...
+
 ## Notes About the Provided Images
 Locavore sartorial Wes Anderson wayfarers cred mixtape, Brooklyn McSweeney's Blue Bottle. Direct trade Etsy roof party tote bag Brooklyn scenester, meggings aesthetic small batch DIY pop-up migas Austin distillery. Keytar photo booth lo-fi, cardigan biodiesel Pinterest freegan taxidermy sustainable tousled ugh whatever chia. Kale chips freegan letterpress Tumblr Austin iPhone, Banksy four loko normcore. Tattooed flexitarian Pitchfork, put a bird on it keffiyeh mustache food truck. Plaid single-origin coffee slow-carb next level, narwhal distillery put a bird on it freegan scenester irony normcore drinking vinegar actually tousled. Polaroid Echo Park PBR Intelligentsia chillwave.

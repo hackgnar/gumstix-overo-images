@@ -11,4 +11,4 @@ Choose one of the three methods below to build your base image for the Gumstix O
 * [Install Image to SD Card](install_image.md) - Once you have your image from one of the above build methods, this documentation will explain how to prepare an SD card for the Gumstix Overo board.
 
 ## Notes about this Kali Image
-Gluten-free seitan kale chips, Kickstarter PBR&B tattooed paleo pour-over ugh lomo. Lo-fi drinking vinegar direct trade locavore meggings, DIY keytar hoodie. Truffaut ethical synth cliche, fingerstache direct trade Neutra listicle tote bag authentic health goth umami occupy. Shoreditch whatever vegan scenester beard. Bespoke vinyl forage, dreamcatcher Kickstarter church-key jean shorts PBR&B asymmetrical direct trade twee leggings banh mi. Craft beer keytar vegan, banh mi literally pork belly chillwave. McSweeney's banh mi PBR tote bag retro direct trade, slow-carb vinyl viral heirloom street art 90's.
+The build notes and images here are for a stock Kali Linux OS configured for a Gumstix Overo device.  The Kali image is configured for easy access when the Gumstix device is plugged into a host computer via USB.
