@@ -40,5 +40,5 @@ Here is information on the [Thumbo Board](https://store.gumstix.com/index.php/pr
 
 Here is information on the [Gumstix IronSTORM-P COM](https://store.gumstix.com/index.php/products/622/) 
 
-![](https://s3-us-west-2.amazonaws.com/media.gumstix.com/images/product/768dd9340e71427b43542e11d97a3271574d5764.jpeg)
+![](https://s3-us-west-2.amazonaws.com/media.gumstix.com/images/product/5bb7f026b332d037ef39a71f7590a7288fe94aa4.jpeg)
 
