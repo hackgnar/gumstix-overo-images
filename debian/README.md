@@ -10,6 +10,9 @@ Choose one of the three methods below to build your base image for the Gumstix O
 ## Install Your Debian Image
 * [Install Image to SD Card](install_image.md) - Once you have your image from one of the above build methods, this documentation will explain how to prepare an SD card for the Gumstix Overo board.
 
+## Credentials and Access Notes for Precompiled images
+* [How to Access your Image](image_access_and_credentials.md) - If you are using the precompiled image or an unmodifed build script to create your image, look here for help on accessing and logging into your system.
+
 ## Accessing Your Installed Image
 * [Accessing Your Image](image_access_and_credentials.md) - How to access your Gumstix device after installing an OS image.
 

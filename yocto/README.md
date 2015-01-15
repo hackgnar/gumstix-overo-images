@@ -10,6 +10,9 @@ Choose one of the three methods below to build your base image for the Gumstix O
 ## Install your Yocto Image
 * [Install Image to SD Card](install_image.md) - Once you have your image from one of the above build methods, this documentation will explain how to prepare an SD card for the Gumstix Overo board.
 
+## Credentials and Access Notes for Precompiled images
+* [How to Access your Image](image_access_and_credentials.md) - If you are using the precompiled image or an unmodifed build script to create your image, look here for help on accessing and logging into your system.
+
 ## Notes About Building Yocto for the Gumstix Overo
 
 This writeup goes over some basics on how to build and install a Yocto Linux image for an Overo Gumstix board.  The Yocto build described in this document can be directly installed on a Gumstix board or you can utilize the kernel, modules and firmeware it creates to constuct other Linux distributions (Debian, Kali, Ubuntu, Fedora, etc) for your Gumstix board.
