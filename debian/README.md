@@ -155,7 +155,7 @@ cd ..
 -------------------
 
 # Gumstix Overo Debian Wheezy Scripted Build
-* In order to speed up the Debian Gumstix build process, I have composed a bash script from all of the manual build steps described above.  The script can be found [here](https://github.com/hackgnar/...).  This script was tested on a base Debian 7.7 , Ubuntu 14.04 and Kali Linux 1.0.9 system.  The script contains sudo commands so it will prompt you periodically for a root password when it needs to run privileged commands.
+* In order to speed up the Debian Gumstix build process, I have composed a bash script from all of the manual build steps described above.  The script can be found [here](https://github.com/hackgnar/gumstix-overo-images/blob/master/debian/build_gumstix_debian.sh).  This script was tested on a base Debian 7.7 , Ubuntu 14.04 and Kali Linux 1.0.9 system.  The script contains sudo commands so it will prompt you periodically for a root password when it needs to run privileged commands.
 
 ### Download the Build Script
 * The build script that encapsulates all of the manual build steps can be obtained from by github repo as shown below.
