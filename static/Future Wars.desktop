@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Future Wars
+Exec=env WINEPREFIX="/home/usaf/.wine" /usr/bin/wine C:\\\\Program\\ Files\\ \\(x86\\)\\\\Future\\ Wars\\\\bin\\\\win32\\\\futurewars.exe -language\\ en
+Type=Application
+StartupNotify=true
+Path=/home/usaf/.wine/dosdevices/c:/Program Files (x86)/Future Wars
+Icon=B201_futurewars.0
